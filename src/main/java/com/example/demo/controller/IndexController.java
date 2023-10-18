@@ -18,6 +18,7 @@ public class IndexController {
         lista.add(new Clientes("30", "Fernando", "651654"));
         lista.add(new Clientes("40", "Mireya", "516516"));
         lista.add(new Clientes("50", "Fernanda", "65218"));
+		 lista.add(new Clientes("60", "Fernanda 2 ", "65218"));
         model.addAttribute("listaCliente", lista);
         return "index";
     }
